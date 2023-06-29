@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* selector universal */
+    *{  
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+    }
+
+
+/* SELECTORES DE ETIQUETA */
+
+/* imagen de fondo */
+body{
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+    }
+
+    /* diseño titulos */
+h1 {
+    color: rgb(14, 59, 8);
+    font-size: 3.5em;
+    }
+   
+    /* diseño subtitulos */
+h2 {    
+    /* color: rgb(49, 48, 48); */
+    color: rgb(17, 73, 10);
+    font-size: 2em;
+    }
+
+    /* nav y footer */
+    
+    nav,
+    footer{
+        font-size: 1.2em;
+        background-color: rgb(124, 184, 94);
+        background: size 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: solid 1px rgba(128, 128, 128, 0.473);
+        }
+                nav ul li a {
+                    text-decoration: none;
+                    color:rgb(49, 48, 48);
+                    margin-right: 30px;
+                    }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+footer div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 35px;
+    margin-left: 10px;
+    }
+
+
+/* fuente parrafos */
+p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+    }
+
+    
+header img {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    }
+
+    /* SELECTORES DE CLASE */
+
+.text-center{
+    text-align: center;
+}
+/* inicio */
+.contenedor-inicio{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+.presentacion{
+    background-color: rgba(124, 184, 94, 0.884);
+    width: auto;
+    height: auto;
+    margin: 30px 10px;
+    padding: 10px;
+    /* border: solid 1px rgba(128, 128, 128, 0.473); */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.speech{
+    text-align: center;
+    font-size: 1.3em;
+    line-height:2.5em;
+}
+.img-inicio{
+    border: solid 1px rgba(128, 128, 128, 0.473);
+}
+
+
+/* entorno */
+
+ /* .img-entorno{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    } */
+
+    /* .img-entorno figure{
+    } */
+
+        /* .img-entorno figure figcaption{
+        color: black;
+        font-weight: bold;
+        font-size: 1.2em;
+        background-color:rgba(217,221,217,.4);
+        padding: 8px;
+        text-align: center;
+        }
+        .img-entorno figure img{
+            padding: 10px;
+            } */
+
+
+/* contacto */
+.form-location{
+    display: flex;
+    }
+
+/* fotos cabana */
+/* .cabana{
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+    } */
+ /* .cabana img {
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 10px;
+    } */
+
+    /* nosotros */
+
+.nosotros{
+    margin-right: 30px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    align-items: center;
+    justify-content: flex-start;
+
+
+/* ENTORNO */
+
+}
+.card{
+    /* background-color: rgb(206, 195, 195);
+    border: solid 2px; */
+    padding: 10px;
+}
+.contenedor-entorno{
+    background-color: rgba(217,221,217,.4);
+    width: auto;
+    height: auto;
+    margin: 30px 10px;
+    padding: 10px;
+    border: solid 2px rgba(2, 0, 0, 0.473);
+    text-align: center;
+    }
+.entorno{
+    font-size: 1.5em;
+}
+.link-entorno{
+    display: flex;
+    justify-content: space-around;
+}
+.botones-form{
+    background-color:rgba(181, 201, 171, 0.884) ;
+}
+
+.card-cabin{
+    background-color: transparent;
+}
+
+
+
+
+
+
+ 

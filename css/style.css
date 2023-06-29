@@ -107,6 +107,8 @@ header img {
 }
 .img-inicio{
     border: solid 1px rgba(128, 128, 128, 0.473);
+    width: 100%;
+    padding: 0%;
 }
 
 
@@ -197,4 +199,9 @@ header img {
 
 .card-cabin{
     background-color: transparent;
+}
+
+.rel-width{
+    max-width: 100%;
+    height: auto;
 }

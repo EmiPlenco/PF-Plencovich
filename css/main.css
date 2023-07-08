@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300&display=swap");
+nav {
+  background-color: rgb(124, 184, 94);
+  font-size: 1.2em;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+
+h1 {
+  font-size: 3.5em;
+  color: rgb(14, 59, 8);
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(17, 73, 10);
+}
+
+/*# sourceMappingURL=main.css.map */

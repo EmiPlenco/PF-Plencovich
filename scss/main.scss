@@ -1,0 +1,23 @@
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,300&display=swap');
+ @import "_vars";
+ @import "_commons";
+ @import "_nav";
+ @import "_cabana";
+ 
+ nav{
+    background-color: $mainColor;
+    font-size: $textSm;
+ }
+ body{
+    font-family: $mainFont;
+    background-color: $white;
+ }
+ h1{
+    font-size: $textLg;
+    color:$secondaryColor
+ }
+ h2{
+    font-size: $textMd;
+    color:$subColor
+ }

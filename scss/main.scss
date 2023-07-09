@@ -3,21 +3,9 @@
  @import "_vars";
  @import "_commons";
  @import "_nav";
+ @import "_inicio";
  @import "_cabana";
+ @import "_nosotros";
+ @import "_entorno";
+@import "_contacto";
  
- nav{
-    background-color: $mainColor;
-    font-size: $textSm;
- }
- body{
-    font-family: $mainFont;
-    background-color: $white;
- }
- h1{
-    font-size: $textLg;
-    color:$secondaryColor
- }
- h2{
-    font-size: $textMd;
-    color:$subColor
- }

@@ -1,14 +1,14 @@
 .contenedor-entorno{
-    background-color: rgba(217,221,217,.4);
+    background-color: $bgEntorno;
     width: auto;
     height: auto;
     margin: 30px 10px;
     padding: 10px;
-    border: solid 2px rgba(2, 0, 0, 0.473);
+    border: solid 2px $keyColor;
     text-align: center;
     }
 .entorno{
-    font-size: 1.5em;
+    font-size: $textEntorno;
 }
 .link-entorno{
     display: flex;

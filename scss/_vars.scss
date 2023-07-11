@@ -3,10 +3,14 @@
 //colores
 $mainColor:rgb(124, 184, 94);
 $secondaryColor:rgb(14, 59, 8);
+$navBorder: rgba(128, 128, 128, 0.473);
 $keyColor:rgb(15, 14, 14);
 $white:rgb(252, 252, 252);
 $subColor: rgb(17, 73, 10);
-
+$navText:rgb(49, 48, 48);
+$bgInicio: rgba(124, 184, 94, 0.884);
+$bgEntorno:rgba(217,221,217,.4);;
+$btnForm: rgba(181, 201, 171, 0.884) ;;
 
 //fonts
 $mainFont:'Kanit', sans-serif;
@@ -17,6 +21,7 @@ $textSm:1.2em;
 $textMd:2em;
 $textLg:3.5em;
 $textXl:2em;
+$textEntorno: 1.5em;
 
 //weight
 $textBold:600;

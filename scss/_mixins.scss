@@ -1,1 +1,12 @@
-//extends
+//mixins
+@mixin nav($bgColor,$fontSize,$bg,$mBottom,$padding,$border){
+    background-color: $bgColor;
+    font-size: $fontSize;
+    background: $bg;
+    margin-bottom: $mBottom;
+    padding: $padding;
+    border: $border;
+}
+// @include nav($mainColor,$textSm,size 100%,10px,10px,solid 1px $navBorder);
+
+

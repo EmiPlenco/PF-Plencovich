@@ -13,18 +13,13 @@ header img {
         text-align: center;
         }
     .presentacion{
+        @extend .contenedor-inicio;
         background-color: $bgInicio;
-        width: auto;
-        height: auto;
-        margin: 30px 10px;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        margin: 30px 0px;
     }
     .speech{
         text-align: center;
-        font-size: 1.3em;
+        font-size: $textSpeech;
         line-height:2.5em;
     }
     .img-inicio{
